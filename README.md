@@ -59,17 +59,16 @@ python app.py
 ### Tech Stack Used
 The following technologies are used to build this chatbot:
 
-### Python: The programming language used for development.
-### LangChain: Used for chaining language model prompts and logic.
-### Flask: Web framework used to serve the chatbot as a web application.
-### Meta Llama2: A large language model used for the chat functionality.
-### Pinecone: A vector search engine used for efficient similarity search in the chatbot.
+#### Python: The programming language used for development.
+#### LangChain: Used for chaining language model prompts and logic.
+#### Flask: Web framework used to serve the chatbot as a web application.
+#### Meta Llama2: A large language model used for the chat functionality.
+#### Pinecone: A vector search engine used for efficient similarity search in the chatbot.
 
 ### Folder Structure
 The project folder structure looks like this:
 
-bash
-Copy code
+```bash
 Medical-Chatbot-GenAI/
 │
 ├── app.py               # Main Flask application
@@ -81,3 +80,4 @@ Medical-Chatbot-GenAI/
 ├── static/              # Static files (CSS, JavaScript, images)
 ├── templates/           # HTML templates for the chatbot UI
 └── README.md            # Project documentation
+```
